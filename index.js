@@ -1,3 +1,5 @@
+
+//Clase zombie por defecto
 class Zombi {
   constructor(nombre, puntosVida, potencia) {
     this.nombre = nombre;
@@ -11,6 +13,7 @@ class Zombi {
   }
 }
 
+//Clase Jugador
 class Jugador {
   constructor(nombre, ocupacion, puntosVida, faccion) {
     this.nombre = nombre;
@@ -19,6 +22,7 @@ class Jugador {
     this.faccion = faccion;
   }
 
+  //Metodo para mostrar las estadisticas de los jugadores
   toString() {
     return `Nombre: ${this.nombre}, 
     Ocupación: ${this.ocupacion}, 
@@ -27,10 +31,12 @@ class Jugador {
   }
 }
 
-// Creando dos jugadores de ejemplo
+//Creamos dos jugadores como ejemplo
 const jugador1 = new Jugador("José", "Francotirador", 80, "El Ferrocarril");
 const jugador2 = new Jugador("Juanma", "Guerrero", 110, "Los minutemens"); 
 
-
+//Y lo mostramos en consola 
 console.log(jugador1.toString());
 console.log(jugador2.toString());
+
+// Abrimos la termnal, nos vamos a la carpeta de Ejercicio1 y ejecutamos el js con node (node index.js)
