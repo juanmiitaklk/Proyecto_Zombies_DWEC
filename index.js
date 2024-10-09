@@ -18,7 +18,7 @@ class Jugador {
   constructor(nombre, ocupacion, puntosVida, faccion) {
     this.nombre = nombre;
     this.ocupacion = ocupacion;
-    this.puntosVida = Math.min(puntosVida, 1);
+    this.puntosVida = Math.min(puntosVida, 100);
     this.faccion = faccion;
   }
 
