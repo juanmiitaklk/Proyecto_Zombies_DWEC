@@ -40,7 +40,7 @@ let ricardo = {
   // Objeto Jugador por defecto
   nombre: "Ricardo",
   potencia: 10,
-  puntosVida: 1,
+  puntosVida: 5,
   maxPuntosVida: 10,
   consumir: function (consumible) {
     consumible.consumir(this);

@@ -18,7 +18,7 @@ class Jugador {
   constructor(nombre, ocupacion, puntosVida, faccion) { //Constructor
     this.nombre = nombre;
     this.ocupacion = ocupacion;
-    this.puntosVida = 100; // Lo hacemos fijo y asi no lo tenemos que declarar cuando creamos los jugadores
+    this.puntosVida = 100; 
     this.faccion = faccion;
   }
 
@@ -32,8 +32,8 @@ class Jugador {
 }
 
 //Creamos dos jugadores como ejemplo
-const jugador1 = new Jugador("José", "Francotirador", "El Ferrocarril");
-const jugador2 = new Jugador("Juanma", "Guerrero", "Los minutemens"); 
+const jugador1 = new Jugador("José", "Francotirador", 100, "El Ferrocarril");
+const jugador2 = new Jugador("Juanma", "Guerrero", 100, "Los minutemens"); 
 
 //Y lo mostramos en consola 
 console.log(jugador1.toString());
