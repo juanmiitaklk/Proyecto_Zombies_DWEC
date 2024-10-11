@@ -54,3 +54,4 @@ let hierbabuena = new PlantaCurativa(
   Math.ceil(Math.random() * 11)
 );
 ricardo.consumir(hierbabuena); // Cura a Ricardo y muestra sus puntos de vida
+// Abrimos la termnal, nos vamos a la carpeta de Ejercicio3 y ejecutamos el js con node (node index.js)

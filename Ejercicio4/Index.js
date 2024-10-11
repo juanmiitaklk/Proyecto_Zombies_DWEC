@@ -14,4 +14,6 @@ let puntuaciones = [
 let jugadoresTop = puntuaciones.filter(jugador => jugador.puntuacion > 100);
 
 // Por consola mostramos el nuevo array con el filtro de > 100
+// Para que solo aparezcan los jugadores con mas de 100 en puntuación
 console.log(jugadoresTop);
+// Abrimos la termnal, nos vamos a la carpeta de Ejercicio4 y ejecutamos el js con node (node index.js)

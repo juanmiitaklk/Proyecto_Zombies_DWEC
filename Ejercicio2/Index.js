@@ -22,14 +22,16 @@ class Abominacion extends Zombi {
   // Metodo que realiza 3 ataques seguidos
   ataqueMultiple(objetivo) {
       console.log(`${this.nombre} realiza un ataque múltiple a ${objetivo}:`);
-      for (let i = 0; i < 3; i++) { // bucle para contar los ataques hasta 3
-          this.atacar(objetivo); // ataque basico
+      for (let i = 0; i < 3; i++) { // bucle para contar los ataques (hasta 3)
+          this.atacar(objetivo); // ataque basico al objetivo sin declarar
       }
   }
 }
 
 // Crear un objeto Abominacion
-const abominacion = new Abominacion("Abominación Terrorífica", 150, 25);
+const abominacion = new Abominacion("Abominación Pablo", 150, 25); //El paramentro de potencia (25) indica el daño que causa
 
 // Ejecutar el ataqueMultiple
-abominacion.ataqueMultiple("el Jugador");
+abominacion.ataqueMultiple("Juanma"); //Declaramos objetivo para que aparezca
+// Abrimos la termnal, nos vamos a la carpeta de Ejercicio2 y ejecutamos el js con node (node index.js)
+
